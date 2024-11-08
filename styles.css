@@ -1,0 +1,53 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #e12626; /* Set the background to black */
+    color: #070707; /* Set the text color to white for better visibility */
+}
+
+.card {
+    background-color: #05178e; /* Slightly dark background for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff;
+}
+
+input, .form-control, .table {
+    background-color: #fff; /* Keep the input boxes and table cells white */
+    color: #000; /* Text color for better readability inside inputs */
+}
+
+input::placeholder, .form-control::placeholder {
+    color: #888; /* Placeholder text color */
+}
+
+.table-responsive {
+    background-color: #1e1e1e; /* Slightly dark background for the table container */
+}
+
+.table thead {
+    background-color: #333; /* Dark background for table headers */
+    color: #fff; /* White text for table headers */
+}
+
+.table tbody tr {
+    background-color: #fff; /* Keep the table rows background white */
+    color: #000; /* Text color for table rows */
+}
+
+.btn-primary, .btn-warning, .btn-danger {
+    background-color: #e3e313; /* Default button colors */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7a780e; /* Darker blue on hover */
+}
+
+.btn-success {
+    background-color: #28a745; /* Green color for the success button */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
